@@ -1,0 +1,177 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(./images/bgheader.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 40%;
+}
+.head-nav{
+    margin-left:50%;
+    padding:20px;
+}
+.head-nav a{
+        padding:10px;
+        text-decoration: none;
+        font-size: large;
+        color:white;
+}
+.head-nav a:hover{
+    background-color:orange;
+    border-radius:2px;
+}
+#Order{
+    border:2px solid red;
+    border-radius:10px;
+    color:black;
+    margin-left:20px;
+    background-color: red;
+}
+#Order:hover{
+    background-color: orange;
+    color:black;
+}
+.book{
+    margin-left:47%;
+    position:absolute;
+    top:80%;
+    padding:10px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.book:hover{
+    background-color:rgb(249, 249, 171)
+}
+div .h1{
+    color: yellowgreen;
+    text-align: center;
+    font-size: x-large;
+}
+
+
+.Sec2{
+    background-color: navajowhite;
+    border-radius: 10px;
+}
+.tm{
+    font-size: 30px;
+}
+
+.row{
+    display: flex;
+}
+
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 4px 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: gray;
+    color: whitesmoke;
+  }
+  
+  .container {
+    padding: 8PX 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+
+.Sec3{
+    background-color: lightcoral;
+    padding: 20px;
+}
+small{
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 50px;
+}
+
+.card-img{
+    border-radius: 10px;
+}
+
+.section4{
+    background-color: rgb(37, 111, 180);
+    font-family: sans-serif;
+    border: 2px dashed whitesmoke;
+    padding: 60px;
+    margin: 35px;
+}
+
+
+footer{
+    background-color: coral;
+    text-align:center;
+    padding: 20px;
+}
+.fa-brands{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-weight: 20px;
+}
+
+.card-img:hover{
+    background-color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius:10px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  h3:hover{
+    background-color: red;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius:10px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a{
+    color: black;
+  }
